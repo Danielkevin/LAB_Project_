@@ -22,6 +22,18 @@ $(document).ready(function(){
             sliderImages.css({left:'0'});
         });
     });
+    
+    setTimeout(automaticSlide,5000);
+    function automaticSlide()
+    {
+        sliderImages.animate({
+            left : '-' + width + 'px'
+        }, 1000, function(){
+            sliderImages.find('.slide:first-child').appendTo(sliderImages);
+            sliderImages.css({left:'0'});
+        });
+        setTimeout(automaticSlide,5000);
+    }
 });
 
 function xFunction(x)

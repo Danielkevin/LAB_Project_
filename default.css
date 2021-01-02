@@ -102,7 +102,145 @@ body
 .slider-image img
 {
     width:1590px;
-    height:700px
+    height:700px;
+}
+
+.contentTitel
+{
+    width:100%;
+    font-family:"Bahnschrift";
+    color:#f9f9f9; 
+    font-size: 50px;
+    align-items: center;
+}
+
+.add
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("Images/Sam/image\ \(15\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:80%;
+    height: 500px;
+}
+
+.add2
+{
+    display: none;
+}
+
+.block
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    flex-basis:90%
+}
+
+.block1
+{
+    background-image: url("Images/Sam/image\ \(20\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:500px;
+    height: 300px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.block2
+{
+    background-image: url("Images/Sam/image\ \(14\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:500px;
+    height: 300px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.block3
+{
+    background-image: url("Images/Sam/image\ \(11\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:500px;
+    height: 300px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.blockTitel
+{
+    margin-left: 10px;
+    font-family:"Bahnschrift";
+    color:#f9f9f9; 
+    font-size: 27px;
+}
+
+.blockTitelAdd
+{
+    margin-left: 20px;
+    font-family:"Bahnschrift";
+    color:#f9f9f9; 
+    font-size: 40px;
+}
+
+.blockContentAdd
+{
+    font-family:"Bahnschrift";
+    color:#f9f9f9; 
+    font-size: 25px;
+    padding-top: 125px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.blockContent
+{
+    font-family:"Bahnschrift";
+    color:#f9f9f9; 
+    font-size: 18px;
+    padding-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.footerContainer
+{
+    margin-top: 40px;
+    padding-top: 10px;
+    background-color: rgb(54, 54, 54);
+    width:100%;
+    height: 200px;
+}
+
+.socmed
+{
+    width: 100%;
+    color:seashell;
+    font-family:"Bahnschrift";
+    font-size: 20px;
+}
+
+::-webkit-scrollbar 
+{
+    width: 10px;
+}
+ ::-webkit-scrollbar-track 
+{
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb 
+{
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover 
+{
+    background: #555; 
 }
 
 @media (max-width: 800px)
@@ -111,6 +249,40 @@ body
     {
         display: none!important;
     }
+    .add
+    {
+        display: none!important;
+    }
+    .add2
+    {
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-image: url("Images/Sam/image\ \(15\).jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width:90%;
+        height: 400px;
+    }
+
+    .blockTitelAdd
+    {
+        margin-left: 20px;
+        font-family:"Bahnschrift";
+        color:#f9f9f9; 
+        font-size: 30px;
+    }
+
+    .blockContentAdd
+    {
+        font-family:"Bahnschrift";
+        color:#f9f9f9; 
+        font-size: 20px;
+        padding-top: 30px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+
     .dropdown
     {
         position:relative;
@@ -174,5 +346,19 @@ body
     {
         width: 50px;
         height: 30px;
+    }
+    .block 
+    {
+        margin-left: 18%;
+        margin-right: 15%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        flex-basis:70%
+    }
+
+    .block1, .block2, .block3
+    {
+        margin-bottom: 20px;
     }
 }
