@@ -273,6 +273,11 @@ body
     background: #555; 
 }
 
+.aboutBanner2
+{
+    display: none;
+}
+
 @media (max-width: 800px)
 {
     .menus
@@ -392,7 +397,20 @@ body
         margin-bottom: 20px;
     }
 
-
+    .aboutBanner
+    {
+        display: none;
+    }
+    .aboutBanner2
+    {
+        display: flex;
+        width: 700px;
+        margin: auto;
+    }
+    .aboutBanner2 img
+    {
+        width: 700px;
+    }
 }
 
 
@@ -571,6 +589,30 @@ body
     margin-right: 30%;
 }
 
-
-
-
+/*tentang kami*/
+.aboutImages
+{
+    width:300px;
+    margin:auto;
+}
+.about
+{
+    width: 300px;
+}
+.paragraph
+{
+    font-family:"Bahnschrift";
+    color:#f9f9f9; 
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+}
+.aboutBanner
+{
+    width:1000px;
+    margin:auto;
+}
+.aboutBanner img 
+{
+    width: 1000px;
+}
