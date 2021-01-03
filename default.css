@@ -391,4 +391,186 @@ body
     {
         margin-bottom: 20px;
     }
+
+
 }
+
+
+/* INI UNTUK GALERI */
+
+.namamobil{
+    font-family:"Bahnschrift";
+    color:#f9f9f9; 
+    font-size: 72px;
+    margin-bottom: 10px;
+   
+}
+
+
+.deskripsigaleri
+{
+    font-family:"Bahnschrift";
+    color:#f9f9f9; 
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.galeriblock 
+{
+    width: 900px;   
+    margin-left: 25%;
+    margin-right: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-basis:90%
+}
+
+
+
+.galeriblock-photo1
+{
+    background-image: url("Images/GTAwiki/X80Proto-GTAO-Front.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 500px;
+    height: 300px;
+    margin-top: 38px;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+.galeriblock-photo2
+{
+    background-image: url("Images/GTAwiki/X80Proto-GTAO-Rear.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:300px;
+    height: 200px;
+    margin-top: 38px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+
+.galeriblock-photo3
+{
+    background-image: url("Images/GTAwiki/X80Proto-GTAO-Engine.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:300px;
+    height: 200px;
+    margin-top: 38px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+
+.galeriblock-photo4
+{
+    background-image: url("Images/GTAwiki/X80Proto-GTAO-Inside.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:300px;
+    height: 200px;
+    margin-top: 38px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+
+
+.galeriblock-photo5
+{
+    background-image: url("Images/GTAwiki/X80Proto-GTAO-Open.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:300px;
+    height: 200px;
+    margin-top: 38px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+
+.galeriblock-photo6
+{
+    background-image: url("Images/GTAwiki/X80Proto-GTAO-Side.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:300px;
+    height: 200px;
+    margin-top: 38px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+
+
+/* GALERI BLOCK 2*/
+
+
+
+.galeriblock2-photo1
+{
+    background-image: url("Images/GTAwiki/SC1-GTAO-front.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 300px;
+    margin-top: 38px;
+    margin-right: 55%;
+    
+   
+}
+
+.galeriblock2-photo2
+{
+    background-image: url("Images/GTAwiki/SC1-GTAO-Inside.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 50%; 
+}
+
+.galeriblock2-photo3
+{
+    background-image: url("Images/GTAwiki/SC1-GTAO-Top.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 300px;
+    margin-top: 38px;
+    margin-right: 55%;
+}
+
+.galeriblock2-photo4
+{
+    background-image: url("Images/GTAwiki/SC1-GTAO-Engine.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 300px;
+    margin-left: 50%;
+    margin-top: -300px;
+}
+
+.galeriblock2-photo5
+{
+    background-image: url("Images/GTAwiki/SC1-GTAO-Other.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 300px;
+    margin-top: 38px;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+
+
+
