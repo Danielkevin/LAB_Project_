@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="logo1.png" type="image/x-icon"/>
+        <link rel="apple-touch-icon" href="logo1.png" type="image/x-icon"/>
+        <link rel="stylesheet" href="default.css">
+        <title>
+            Voila Motorsport
+        </title>
+    </head>
+<body>
+    <nav class=header>
+        <div class="menus">
+            <a href=index.html>Halaman Utama</a>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href=galeri.html>Galeri</a>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href=model.html>Model</a>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href=tentang.html>Tentang Kami</a>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href=kontak.html>Kontak</a>
+        </div>
+        <div class=dropdown onclick="xFunction(x)">
+            <div class=bar1></div>
+            <div class=bar2></div>
+            <div class=bar3></div>
+            <div class=dropdown-content>
+                <a href=index.html>Halaman Utama</a>
+                <a href=galeri.html>Galeri</a>
+                <a href=model.html>Model</a>
+                <a href=tentang.html>Tentang Kami</a>
+                <a href=kontak.html>kontak</a>
+            </div>
+        </div>
+        <div class=logos>
+            <img src="logo.png">
+        </div>
+    </nav>
+
+    <div class="form">
+        <p style="text-align:center" class="formTitel">Tetap Terhubung dengan Kami</p>
+        <form action="index.html" onsubmit="validationForm(event)">
+            <div class="Header-Form">
+                <div class="Form1">
+                    <h3>Full name  
+                        <input type="text" placeholder="Name" id="fullname">
+                    </h4>
+                </div>
+                <div class="Form2">
+                    <h3>Gender  
+                        <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other"><label for="other">Other</label>
+                    </h3>
+                </div>
+                <div class="Form3">
+                    <h3>Email  
+                        <input type="email" placeholder="Email" id="email">
+                    </h4>
+                </div>
+                <div class="Form4">
+                    <h3>Subject  
+                        <input type="text" id="subject">
+                    </h3>
+                </div>
+                <div class="Form5">
+                    <h3>Message  
+                        <textarea name="isi" id="isi" cols="54" rows="10"></textarea>
+                    </h3>
+                </div>
+                <div class="Form6">
+                    <input type="checkbox" name="agree" id="agree">
+                    <label>agree with term and services</label>
+                </div>
+                <div class="Form7">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </form>
+        <script src="Validation.js"></script>
+    </div>
+    <br><br><br>
+    <nav class=footer>
+        <div class=footerContainer>
+            <p style="text-align:center" class=socmed>Tetap Terhubung dengan kami</p>
+            <br>
+            <div class=footerContent>
+                <div class=socmedImage>
+                    <img src="logo/facebook-logo.png">
+                    <img src="logo/instagram-logo.png">
+                    <img src="logo/toppng.com-youtube-black-logo-2000x1408.png">
+                    <img src="logo/twitter-logo-on-black-background.png">
+                </div>
+                <p style="text-align:right" class=CR>Copyright 2020 © Voila</p>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>

@@ -114,6 +114,15 @@ body
     align-items: center;
 }
 
+.formTitel
+{
+    width:100%;
+    font-family:"Bahnschrift";
+    color:#f9f9f9; 
+    font-size: 60px;
+    align-items: center;
+}
+
 .add
 {
     margin-left: 10%;
@@ -615,4 +624,100 @@ body
 .aboutBanner img 
 {
     width: 1000px;
+}
+
+/*contact*/
+
+.Header-Form{
+    border: 1px solid black;
+    width: 37%; 
+    margin-left: 30%;
+    margin-top: 50px;
+    background-color:beige;
+    padding-left: 1.5%;
+}
+
+.Form1 input{
+    margin-left: 5%;
+}
+
+.Form2 input{
+    margin-left: 9%;
+}
+
+.Form2 label{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.Form3 input{
+    margin-left: 10.5%;
+}
+
+.Form4 input{
+    width: 403px;
+    margin-left: 8.3%;
+}
+
+.Form5 textarea{
+    resize: none;
+    margin-left: 7%;
+}
+
+.Form6 {
+    margin-left: 21%;
+}
+
+.Form7 input{
+    margin-top: 3%; 
+    margin-bottom: 2%;
+    margin-left: 21%;
+}
+@media only screen and (max-width: 800px)
+{
+
+    .Header-Form{
+        border: 1px solid black;
+        width: 73%; 
+        margin-left: 11%;
+        margin-top: 50px;  
+        padding-left: 5%;
+    }
+
+    .Form1 input{
+        margin-left: 5%;
+    }
+
+    .Form2 input{
+        margin-left: 9%;
+    }
+
+    .Form2 label{
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    .Form3 input{
+        margin-left: 10.5%;
+    }
+
+    .Form4 input{
+        width: 403px;
+        margin-left: 8.3%;
+    }
+
+    .Form5 textarea{
+        resize: none;
+        margin-left: 7%;
+    }
+
+    .Form6 {
+        margin-left: 21%;
+    }
+
+    .Form7 input{
+        margin-top: 3%; 
+        margin-bottom: 2%;
+        margin-left: 21%;
+    }
 }
