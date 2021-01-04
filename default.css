@@ -720,4 +720,157 @@ body
         margin-bottom: 2%;
         margin-left: 21%;
     }
+
+
+
+
+}
+
+    /* Model */
+
+  
+
+    .modelcontainer1{
+    
+        margin-left: 15%;
+        width: 500px;
+        height: 600px;
+
+    }
+
+
+    .modelcontainer2{
+        margin-top: -655px;
+        margin-left: 55%;
+        width: 500px;
+        height: 600px;
+
+    }
+
+    .modelcontainer3{
+    
+        margin-left: 15%;
+        width: 500px;
+        height: 600px;
+
+    }
+
+
+    .modelsuper1 
+    {
+        background-image: url("Images/GTAwiki/X80Proto-GTAO-Side.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 500px;
+        height: 300px;
+        margin-top: 38px;
+        margin-left: 20px;
+       
+    }
+
+
+
+
+    .modelsuper2
+    {
+        background-image: url("Images/GTAwiki/SC1-GTAO-Side.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 500px;
+        height: 300px;
+        
+       
+    }
+
+
+    .modelsuper3
+    {
+        background-image: url("Images/GTAwiki/ItaliGTO-GTAO-Side.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 500px;
+        height: 300px;
+        
+       
+    }
+
+
+    .modelsport1
+    {
+        background-image: url("Images/GTAwiki/ZionXS-GTAV-Side.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 500px;
+        height: 300px;
+        
+       
+    }
+
+    .modelsedan1
+    {
+        background-image: url("Images/GTAwiki/Schwartzer-GTAV-Sideview.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 500px;
+        height: 300px;
+        
+       
+    }
+
+    .modelsedan2
+    {
+        background-image: url("Images/GTAwiki/Oracle-GTAV-Side.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 500px;
+        height: 300px;
+        
+       
+    }
+
+
+    .modelklasik1
+    {
+        background-image: url("Images/GTAwiki/RooseveltValor-GTAO-Side.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 500px;
+        height: 300px;
+    }
+
+    .modelklasik2
+    {
+        background-image: url("Images/GTAwiki/Winky-GTAO-Side.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 500px;
+        height: 300px;
+    }
+
+    
+
+    .modeldesc{
+        font-family:"Bahnschrift";
+        color:#f9f9f9; 
+        font-size: 20px;
+        background-color: rgba(90, 5, 5, 0.849);
+        margin-top: 200px;
+        height: 50px;
+    }
+
+    .blockTitelmodel
+{
+    margin-left: 30px;
+    font-family:"Bahnschrift";
+    color:#be0b04e1; 
+    font-size: 55px;
+}
+
+.deskripsimodel
+{
+
+    font-family:"Bahnschrift";
+    color:#f9f9f9; 
+    font-size: 22px;
+    margin-bottom: 30%;
 }
