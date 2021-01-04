@@ -53,10 +53,4 @@ function validationForm(event){
         event.preventDefault()
         alert ("Tolong untuk menyetujui layanan kami")
     }
-
-}
-
-
-function clear(){
-    document.getElementById("form").reset();
 }
